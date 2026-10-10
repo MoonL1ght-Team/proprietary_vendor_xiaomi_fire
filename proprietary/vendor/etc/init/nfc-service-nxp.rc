@@ -2,23 +2,18 @@ service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nqnfc-service.nxp
     class early_hal
     user nfc
     group nfc oem_2912
-    disabled
-    interface aidl android.hardware.nfc.INfc/default
 
 on early-init && property:ro.boot.board_id=S98029AA1
     setprop ro.boot.product.hardware.sku hcesim
     setprop ro.vendor.se.type HCE,UICC
     setprop ro.vendor.nfc.repair 1
-    start vendor.nfc_hal_service
 
 on early-init && property:ro.boot.board_id=S98029BA1
     setprop ro.boot.product.hardware.sku hcesim
     setprop ro.vendor.se.type HCE,UICC
     setprop ro.vendor.nfc.repair 1
-    start vendor.nfc_hal_service
 
 on early-init && property:ro.boot.board_id=TBD
     setprop ro.boot.product.hardware.sku hcesim
     setprop ro.vendor.se.type HCE,UICC
     setprop ro.vendor.nfc.repair 1
-    start vendor.nfc_hal_service

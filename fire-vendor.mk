@@ -8,7 +8,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/fire/proprietary/odm/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp.conf \
     vendor/xiaomi/fire/proprietary/odm/etc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp_RF.conf \
-    vendor/xiaomi/fire/proprietary/odm/etc/sensors/hals.conf:$(TARGET_COPY_OUT_ODM)/etc/sensors/hals.conf \
     vendor/xiaomi/fire/proprietary/system_ext/etc/init/android.hardware.audio.parameter_parser.service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/android.hardware.audio.parameter_parser.service.rc \
     vendor/xiaomi/fire/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
     vendor/xiaomi/fire/proprietary/system_ext/etc/sysconfig/com.mediatek.ims.config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/com.mediatek.ims.config.xml \
@@ -688,7 +687,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fire/proprietary/vendor/etc/gralloc/vpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/vpu.xml \
     vendor/xiaomi/fire/proprietary/vendor/etc/init.insmod.mt6768.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/init.insmod.mt6768.cfg \
     vendor/xiaomi/fire/proprietary/vendor/etc/init/android.hardware.audio.service-aidl.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service-aidl.mediatek.rc \
-    vendor/xiaomi/fire/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/xiaomi/fire/proprietary/vendor/etc/init/android.hardware.bluetooth-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth-service-mediatek.rc \
     vendor/xiaomi/fire/proprietary/vendor/etc/init/android.hardware.cas@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.cas@1.2-service.rc \
     vendor/xiaomi/fire/proprietary/vendor/etc/init/android.hardware.gatekeeper-service.beanpod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper-service.beanpod.rc \
@@ -716,7 +714,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fire/proprietary/vendor/etc/init/init.fmradio_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fmradio_drv.rc \
     vendor/xiaomi/fire/proprietary/vendor/etc/init/init.gps_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps_drv.rc \
     vendor/xiaomi/fire/proprietary/vendor/etc/init/init.md_apps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.md_apps.rc \
-    vendor/xiaomi/fire/proprietary/vendor/etc/init/init.thermalloadalgod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermalloadalgod.rc \
+    vendor/xiaomi/fire/proprietary/vendor/etc/init/init.thermal_manager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal_manager.rc \
     vendor/xiaomi/fire/proprietary/vendor/etc/init/init.touch.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.touch.rc \
     vendor/xiaomi/fire/proprietary/vendor/etc/init/init.volte_imcb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.volte_imcb.rc \
     vendor/xiaomi/fire/proprietary/vendor/etc/init/init.volte_imsm_93.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.volte_imsm_93.rc \
@@ -744,7 +742,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fire/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc \
     vendor/xiaomi/fire/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram-sevice.rc \
     vendor/xiaomi/fire/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq_aidl-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq_aidl-service.rc \
-    vendor/xiaomi/fire/proprietary/vendor/etc/init/vendor.xiaomi.hardware.micharge-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.micharge-service.rc \
     vendor/xiaomi/fire/proprietary/vendor/etc/init/volte_clientapi_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_clientapi_ua.rc \
     vendor/xiaomi/fire/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
     vendor/xiaomi/fire/proprietary/vendor/etc/le_audio_codec_capabilities.xml:$(TARGET_COPY_OUT_VENDOR)/etc/le_audio_codec_capabilities.xml \
@@ -788,7 +785,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fire/proprietary/vendor/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
     vendor/xiaomi/fire/proprietary/vendor/etc/seccomp_policy/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy \
     vendor/xiaomi/fire/proprietary/vendor/etc/seccomp_policy/mediaswcodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaswcodec.policy \
-    vendor/xiaomi/fire/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/fire/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
     vendor/xiaomi/fire/proprietary/vendor/etc/smsdbvisitor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smsdbvisitor.xml \
     vendor/xiaomi/fire/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
@@ -906,8 +902,6 @@ PRODUCT_PACKAGES += \
     sensors.dynamic_sensor_hal \
     sound_trigger.primary.default \
     vendor.mediatek.hardware.audio-impl \
-    vendor.mediatek.hardware.bluetooth.audio@2.1-impl \
-    vendor.mediatek.hardware.bluetooth.audio@2.2-impl \
     vendor.mediatek.hardware.mtkpower-aidl-impl \
     vendor.mediatek.hardware.nvram-impl \
     vendor.mediatek.hardware.pq_aidl-impl \
@@ -1120,7 +1114,6 @@ PRODUCT_PACKAGES += \
     s5kjns_sunny_mipi_raw_tuning \
     sc202cs_sunny_mipi_raw_tuning \
     sc820cs_truly_mipi_raw_tuning \
-    sensors.camera.light \
     sensors.touch.detect \
     libmisoundfx_aidl \
     vendor.mediatek.framework.mtksf_ext-V2-ndk \
@@ -1130,8 +1123,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.audio-V1-ndk \
     vendor.mediatek.hardware.audio@6.1 \
     vendor.mediatek.hardware.bluetooth.audio-V1-ndk \
-    vendor.mediatek.hardware.bluetooth.audio@2.1 \
-    vendor.mediatek.hardware.bluetooth.audio@2.2 \
     vendor.mediatek.hardware.composer_ext-V1-ndk \
     vendor.mediatek.hardware.composer_ext@1.0 \
     vendor.mediatek.hardware.gpuserv-V2-ndk \
@@ -1178,7 +1169,9 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.6-impl-mediatek \
     android.hardware.gnss-impl-mediatek \
     android.hardware.sensors@2.X-subhal-mediatek \
+    fingerprint.fpc.default \
     fingerprint.fpc \
+    fingerprint.goodix.default \
     fingerprint.goodix \
     hwcomposer.mt6768 \
     sensors.mt6768 \
@@ -1306,6 +1299,7 @@ PRODUCT_PACKAGES += \
     libmialgo_sd \
     libmialgo_utils \
     libmialgoengine \
+    libmifpext \
     libmipc \
     libmiphone_preview_bokeh \
     libmiriskmanager_isee \
@@ -1481,7 +1475,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq_aidl-V4-ndk \
     vendor.microtrust.hardware.soter@1.0 \
     vendor.nxp.hardware.nfc@2.0 \
-    vendor.xiaomi.hardware.micharge-V2-ndk \
     vendor.xiaomi.hardware.mimd@1.0 \
     vendor.xiaomi.hardware.mrm-V1-ndk_platform \
     vendor.xiaomi.hw.touchfeature-V1-ndk \
@@ -1516,7 +1509,6 @@ PRODUCT_PACKAGES += \
     mediatek-ims-extension-plugin \
     android.hardware.audio.effect.service-aidl.xml \
     android.hardware.audio.service-aidl.mediatek.xml \
-    android.hardware.biometrics.fingerprint@2.1-service.xml \
     android.hardware.bluetooth-service-mediatek.xml \
     android.hardware.cas@1.2-service.xml \
     android.hardware.gatekeeper-service.beanpod.xml \
@@ -1532,7 +1524,6 @@ PRODUCT_PACKAGES += \
     mtkpower_applist-mtk-default.xml \
     nfc-service-nxp.xml \
     power-mediatek.xml \
-    vendor.xiaomi.hardware.micharge.xml \
     vendor.xiaomi.hw.touchfeature-service.xml \
     bp_kmsetkey_ca \
     ccci_mdinit \
@@ -1544,7 +1535,6 @@ PRODUCT_PACKAGES += \
     gsm0710muxd \
     hostapd_cli \
     android.hardware.audio.service-aidl.mediatek \
-    android.hardware.biometrics.fingerprint@2.1-service \
     android.hardware.bluetooth-service-mediatek \
     android.hardware.cas@1.2-service \
     android.hardware.contexthub-service.tinysys \
@@ -1570,7 +1560,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mtkpower_applist-service.mediatek \
     vendor.mediatek.hardware.nvram-service \
     vendor.mediatek.hardware.pq_aidl-service \
-    vendor.xiaomi.hardware.micharge-service \
     vtservice_aidl \
     iperf \
     ipsec_mon \
