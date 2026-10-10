@@ -919,6 +919,7 @@ PRODUCT_PACKAGES += \
     libQstAlgo \
     libTEECommon \
     lib_iir \
+    lib_power_applist \
     libaal_cust \
     libaal_key \
     libaal_sec \
@@ -1050,6 +1051,7 @@ PRODUCT_PACKAGES += \
     libperfctl_vendor \
     libpixelflinger \
     libpower_timer \
+    libpowerhal \
     libpowerhalwrap_vendor \
     libpq_cust_base \
     libpqframework \
