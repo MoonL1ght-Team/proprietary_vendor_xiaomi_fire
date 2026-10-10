@@ -739,7 +739,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fire/proprietary/vendor/etc/init/vendor.mediatek.hardware.mmagent-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mmagent-service.rc \
     vendor/xiaomi/fire/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms-service.rc \
     vendor/xiaomi/fire/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc \
-    vendor/xiaomi/fire/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc \
     vendor/xiaomi/fire/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram-sevice.rc \
     vendor/xiaomi/fire/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq_aidl-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq_aidl-service.rc \
     vendor/xiaomi/fire/proprietary/vendor/etc/init/volte_clientapi_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_clientapi_ua.rc \
@@ -902,7 +901,6 @@ PRODUCT_PACKAGES += \
     sensors.dynamic_sensor_hal \
     sound_trigger.primary.default \
     vendor.mediatek.hardware.audio-impl \
-    vendor.mediatek.hardware.mtkpower-aidl-impl \
     vendor.mediatek.hardware.nvram-impl \
     vendor.mediatek.hardware.pq_aidl-impl \
     vendor.mediatek.hardware.videotelephony-impl \
@@ -1019,6 +1017,7 @@ PRODUCT_PACKAGES += \
     libminiui \
     libmisight \
     libmisound \
+    libmmc5603 \
     libmmprofile \
     libmnetlink_v104 \
     libmp4enc_sa.ca7 \
@@ -1164,7 +1163,6 @@ PRODUCT_PACKAGES += \
     libvt_custom \
     vendor.mediatek.hardware.rcs-V1-ndk \
     vendor.mediatek.hardware.rcs@2.0 \
-    android.hardware.power-service-mediatek \
     chre_atoms_log \
     chremetrics-cpp \
     hq_algoutils \
@@ -1525,7 +1523,6 @@ PRODUCT_PACKAGES += \
     mtk_lbs_service.xml \
     mtkpower_applist-mtk-default.xml \
     nfc-service-nxp.xml \
-    power-mediatek.xml \
     vendor.xiaomi.hw.touchfeature-service.xml \
     bp_kmsetkey_ca \
     ccci_mdinit \
@@ -1558,7 +1555,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.gpuserv-service \
     vendor.mediatek.hardware.mmagent-service \
     vendor.mediatek.hardware.mms-service \
-    vendor.mediatek.hardware.mtkpower-service.mediatek \
     vendor.mediatek.hardware.mtkpower_applist-service.mediatek \
     vendor.mediatek.hardware.nvram-service \
     vendor.mediatek.hardware.pq_aidl-service \
